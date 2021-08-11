@@ -10,7 +10,7 @@ java {
 
 ext {
     PUBLISH_GROUP_ID = 'io.github.elye'
-    PUBLISH_VERSION = '1.0.0'
+    PUBLISH_VERSION = '1.0.1'
     PUBLISH_ARTIFACT_ID = 'simplekotlinlibrary'
 }
 

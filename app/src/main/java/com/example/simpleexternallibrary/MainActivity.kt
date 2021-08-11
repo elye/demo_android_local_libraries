@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<TextView>(R.id.my_text).text = SimpleKotlinClass().simpleText
+        findViewById<TextView>(R.id.my_text).text = SimpleKotlinClass().getMeAnything(1)
         findViewById<Button>(R.id.my_button).setOnClickListener {
             startActivity(Intent(this, SimpleMainActivity::class.java))
         }
