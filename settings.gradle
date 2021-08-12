@@ -14,3 +14,4 @@ rootProject.name = "Simple External Library"
 include ':app'
 include ':simpleandroidlibrary'
 include ':simplekotlinlibrary'
+include ':easyandroidlibrary'

@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
       <module name="Simple_External_Library.app" target="11" />
+      <module name="Simple_External_Library.easyandroidlibrary" target="11" />
       <module name="Simple_External_Library.simpleandroidlibrary" target="11" />
     </bytecodeTargetLevel>
   </component>

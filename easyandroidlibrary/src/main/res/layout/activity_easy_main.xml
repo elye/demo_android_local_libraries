@@ -4,36 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".EasyMainActivity">
 
     <TextView
         android:id="@+id/my_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/my_bottom_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Easy Android Library"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toTopOf="@id/my_easy_button"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/my_easy_button"
+    <TextView
+        android:id="@+id/my_bottom_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Launch Easy Android Library Activity"
-        app:layout_constraintBottom_toTopOf="@id/my_simple_button"
+        android:text="****"
+        app:layout_constraintBottom_toTopOf="@id/my_button"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/my_text" />
 
     <Button
-        android:id="@+id/my_simple_button"
+        android:id="@+id/my_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Launch Simple Android Library Activity"
+        android:text="Click Version Item"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/my_easy_button" />
+        app:layout_constraintTop_toBottomOf="@id/my_bottom_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

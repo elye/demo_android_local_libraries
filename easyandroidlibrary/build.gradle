@@ -32,7 +32,6 @@ android {
 }
 
 dependencies {
-
     implementation 'io.github.elye:simplekotlinlibrary:1.0.0'
     implementation 'androidx.core:core-ktx:1.6.0'
     implementation 'androidx.appcompat:appcompat:1.3.1'
@@ -46,7 +45,7 @@ dependencies {
 ext {
     PUBLISH_GROUP_ID = 'io.github.elye'
     PUBLISH_VERSION = '3.0.0'
-    PUBLISH_ARTIFACT_ID = 'simpleandroidlibrary'
+    PUBLISH_ARTIFACT_ID = 'easyandroidlibrary'
 }
 
 apply from: "../publish-module.gradle"

@@ -11,7 +11,7 @@ package com.example.simplekotlinlibrary
  * @since   11-08-21
 */
 class SimpleKotlinClass {
-    val simpleText = "Simple Kotlin Text"
+    val simpleText = "Simple Kotlin One"
 
 
     /**
@@ -19,5 +19,11 @@ class SimpleKotlinClass {
      * @param option Useless option parameter just as same
      * @return The string of simpleText
      */
-    fun getMeAnything(option: Int) = simpleText
+    fun printMe(option: Int) = simpleText
+
+    /**
+     * This is a breaking change on purpose
+     * @return The string of simpleText
+     */
+    fun printOne() = simpleText
 }
